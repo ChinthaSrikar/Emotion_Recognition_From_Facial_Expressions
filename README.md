@@ -8,7 +8,7 @@ This project presents a novel approach to Facial Emotion Recognition (FER) using
 The FER2013 dataset consists of over 35,000 images labeled with seven different emotions. These images are standardized to 48x48 pixels and converted to grayscale to simplify processing. Data augmentation techniques such as horizontal flipping and random rotation are used to enhance the training data.
 
 ### Model Architecture: Five-CNN
-Our model features an input layer designed for 48 *48 pixel grayscale images resized to 98*98 pixel, followed by five convolutional blocks, adaptive average pooling, and several fully connected layers. This architecture effectively captures a range of features from simple edges to complex objects, making it highly suitable for emotion recognition.
+Our model features an input layer designed for 48  pixel grayscale images resized to 98 pixel, followed by five convolutional blocks, adaptive average pooling, and several fully connected layers. This architecture effectively captures a range of features from simple edges to complex objects, making it highly suitable for emotion recognition.
 
 ### Loss Function: Cross-Entropy Loss
 Cross-entropy loss was selected due to its effectiveness in handling the multi-class classification of emotions. It excels in measuring the discrepancy between predicted and actual probability distributions.
